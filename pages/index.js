@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill} from 'react-icons/bs' 
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {useState} from 'react'
+// import TimelineImages from '../components/SliderCount'
+import CustomSlider from '../components/CustomSlider'
 
 
 export default function Home() {
@@ -33,8 +35,12 @@ export default function Home() {
           <div className='text-center p-10 pt-0'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Samuel Duval</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Human | Political Scientist | Software Engineer</h3>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20'>
-          </div>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-10'>
+              <div className='position: static'>
+                  <CustomSlider />
+              </div>            
+            </div>
+
             <p className ='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               My life passion is to seek a better understanding of nature, from physical phenomena to human societies.
               Somewhere inbetween exists technology which fascinates me. I love to develop software systems and have experience 
