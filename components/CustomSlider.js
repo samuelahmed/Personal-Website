@@ -2,10 +2,15 @@ import { useState } from "react";
 import ReactSlider from "react-slider";
 // import React, {createContext} from "react";
 import Image from "next/image";
+import Link from 'next/link'
+
 
 // const Year = createContext()
 
+
 const CustomSlider = () => {
+
+
 
   let [currentValue, setCurrentValue] = useState();
   

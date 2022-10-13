@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import {BsFillMoonStarsFill} from 'react-icons/bs' 
+import {BsFillMoonStarsFill, BsPersonLinesFill} from 'react-icons/bs' 
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {useState} from 'react'
 // import TimelineImages from '../components/SliderCount'
 import CustomSlider from '../components/CustomSlider'
+import { Tooltip, Button } from 'flowbite-react'
+// import CustomImage from '../components/CustomImage'
+
 
 
 export default function Home() {
@@ -28,15 +31,16 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl  dark:text-white'/>
               </li>
               <li>
-                <a className ="bg-gradient-to-r from-cyan-400 to-cyan-900 text-white px-4 py-2 rounded-md ml-8" href="#"> Resume</a>
+                {/* <a className ="bg-gradient-to-r from-cyan-400 to-cyan-900 text-white px-4 py-2 rounded-md ml-8" href="#"> Resume</a> */}
               </li>
             </ul>
           </nav>
           <div className='text-center p-10 pt-0'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Samuel Duval</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Human | Political Scientist | Software Engineer</h3>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-10'>
-              <div className='position: static'>
+            <div className='relative mx-auto bg-gradient-to-b from-sky-800 rounded-full w-80 h-150 mt-20 mb-10'>
+              {/* <CustomImage /> */}
+              <div className=''>
                   <CustomSlider />
               </div>            
             </div>
@@ -48,9 +52,20 @@ export default function Home() {
             </p>
           </div>
           <div className='text-3xl flex justify-center gap-7 dark:text-white'>
-              <AiFillLinkedin />
+            <a href="https://www.linkedin.com/in/samuel-duval/">
+              <Tooltip content="LinkedIn">
+                <AiFillLinkedin data-tooltip-target="tooltip-default" />
+              </Tooltip>
+            </a>
+            <a href="https://www.github.com/samuelahmed/">
+            <Tooltip content="Github">
               <AiFillGithub />
-            </div>
+            </Tooltip>
+            </a>
+            <Tooltip content="Resume">
+              <BsPersonLinesFill />
+            </Tooltip>
+          </div>
         </section>
       </main>
     </div>
