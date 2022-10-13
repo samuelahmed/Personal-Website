@@ -8,12 +8,16 @@ import Image from "next/image";
 const CustomSlider = () => {
 
   let [currentValue, setCurrentValue] = useState();
-  console.log(currentValue)
+  
+  if (currentValue === undefined) {
+    currentValue = 30
+  }
+  let source = 1992 + currentValue
 
 
   return (
       <> 
-       <Image src={`/${1992 + currentValue}.png`} alt='missing' width='400' height='400' />
+       <Image src={`/${source}.png`} alt='missing' width='400' height='400' />
 
         <ReactSlider
           renderThumb={(props, state) => <div {...props}>{state.valueNow + 1992}</div>}
