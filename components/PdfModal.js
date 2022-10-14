@@ -19,12 +19,7 @@ export default function PdfModal() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    I always felt like I could do anything. Thats the main
-                    thing people are controlled by! Thoughts- their perception
-                    of themselves! Theyre slowed down by their perception of
-                    themselves. If youre taught you cant do anything, you
-                    wont do anything. I was taught I could do everything.
-                    Insert PDF View Component HERE
+                    Insert PDF View Component
                   </p>
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">

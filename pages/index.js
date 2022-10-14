@@ -26,12 +26,12 @@ export default function Home() {
               <Tooltip content="Lights">
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl  dark:text-white'/>
               </Tooltip>
-              <a href="https://www.linkedin.com/in/samuel-duval/">
+              <a href="https://www.linkedin.com/in/samuel-duval/" target="blank" rel="noopener noreferrer">
                 <Tooltip content="LinkedIn">
                   <AiFillLinkedin data-tooltip-target="tooltip-default" />
                 </Tooltip>
               </a>
-              <a href="https://www.github.com/samuelahmed/">
+              <a href="https://www.github.com/samuelahmed/" target="_blank" rel="noopener noreferrer">
                 <Tooltip content="Github">
                   <AiFillGithub />
                 </Tooltip>
@@ -53,11 +53,12 @@ export default function Home() {
                 <CustomSlider />
           </div>
           <div className='mx-auto text-center'>
-            <p className ='text-md py-5 leading-8 text-gray-800 dark:text-white'>
-              My lifes passion is to seek a better understanding of nature, from physical phenomena to human societies.
-              Somewhere inbetween exists technology which fascinates me. I studied social sciences for a BA and MSc, helped
-                tech startups succeed as sales engineer, and advised businesses on operations. I discovered my passion for building software systems and have
-              experience with Javascript, Node, React, Vue, and an ever growing understanding of data structures and algorithms. 
+            <p className ='mx-auto w-5/6 text-md py-5 leading-8 text-gray-800 dark:text-white'>
+              I have always been passionate to seek a better understanding of nature, from physics to human societies, 
+              and somewhere in-between is technology which fascinates me. I studied social sciences for a BA and MSc, 
+              helped tech startups scale as a sales engineer, and advised businesses to improve their operations. 
+              Most recently I have been devoted to the craft of software engineering, having experience with Javascript, 
+              Node, React, Vue, and an ever growing command of the fundamentals such as data structures and algorithms.
             </p>
           </div>
         </section>
