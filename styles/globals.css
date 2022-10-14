@@ -24,13 +24,10 @@ a {
 
 
 /* Start of slider Style */
-
 :root {
   --main-color: rgb(9, 97, 146);
   --main-color-hover: rgb(51, 102, 153, 0.2);
   --track-color: rgba(9, 97, 146, 0.7);
-  /* --mark-color: #aaaaaa; */
-
 }
 
 .customSlider {
@@ -50,13 +47,10 @@ a {
 
 .customSlider-thumb {
   cursor: pointer;
-  /*color for the thumb */
   background: var(--main-color);
-  /* shape of the thumb: circle */
   width: 45px;
   height: 45px;
   border-radius: 100%;
-  /* remove default outline when selected */
   outline: none;
   color: rgb(255, 255, 255);
   display: table;
@@ -73,15 +67,5 @@ a {
   top: 9px;
   width: 4.5px;
   height: 24px;
-  /* background-color: var(--mark-color); */
 }
-
-.customSlider-mark.customSlider-mark-before {
-  /* background-color: var(--main-color); */
-}
-
-.customSlider-mark.customSlider-mark-active {
-  /* display: none; */
-}
-
 /* End of sliderStyle */
