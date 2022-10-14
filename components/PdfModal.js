@@ -2,7 +2,9 @@ import React from "react";
 import { BsPersonLinesFill } from 'react-icons/bs' 
 
 export default function PdfModal() {
-  const [showModal, setShowModal] = React.useState(false);
+
+  let [showModal, setShowModal] = React.useState(false);
+
   return (
     <>
     <BsPersonLinesFill 
@@ -22,6 +24,7 @@ export default function PdfModal() {
                     of themselves! They're slowed down by their perception of
                     themselves. If you're taught you can’t do anything, you
                     won’t do anything. I was taught I could do everything.
+                    Insert PDF View Component HERE
                   </p>
                 </div>
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
