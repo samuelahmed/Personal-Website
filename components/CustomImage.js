@@ -9,10 +9,10 @@ import CustomSlider from "./CustomSlider";
 const CustomImage = () => {
 
     // console.log(customSlider.currentValue)
-  return (
+//   return (
     //    <Image src={`/${30}.png`} alt='missing' width='400' height='400' />
       
-  );
-};
+
+}
 
 export default CustomImage
