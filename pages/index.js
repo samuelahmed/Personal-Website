@@ -67,7 +67,7 @@ export default function Home() {
             <p className ='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               My life's passion is to seek a better understanding of nature, from physical phenomena to human societies.
               Somewhere inbetween exists technology which fascinates me. I studied social sciences for a BA and MSc 
-              and helped tech startups succeed as sales engineer and other business roles. I discovered my passion for building software systems and have
+              and helped tech startups succeed while sales engineer and other business roles. I discovered my passion for building software systems and have
               experience with Javascript, Node, React, Vue, and a growing understanding of data structures and algorithms. 
             </p>
           </div>
