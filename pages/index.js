@@ -40,20 +40,22 @@ export default function Home() {
               </Tooltip>
             </div>
           </nav>
-          <div className='text-center p-10 pt-0'>
+          <div className='mx-auto text-center'>
             <h2 className='text-5xl py-2 text-sky-800 font-medium dark:text-sky-400'>
               Samuel Duval
             </h2>
             <h3 className='text-2xl py-2 dark:text-white'>
               Software Developer
             </h3>
-            <div className='mb-10'>
-                  <CustomSlider />
-            </div>
+          </div>
+          <div className='mx-auto pb-10 -mt-10'>
+                <CustomSlider />
+          </div>
+          <div className='mx-auto text-center'>
             <p className ='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               My lifes passion is to seek a better understanding of nature, from physical phenomena to human societies.
               Somewhere inbetween exists technology which fascinates me. I studied social sciences for a BA and MSc, helped
-               tech startups succeed as sales engineer, and advised businesses on operations. I discovered my passion for building software systems and have
+                tech startups succeed as sales engineer, and advised businesses on operations. I discovered my passion for building software systems and have
               experience with Javascript, Node, React, Vue, and an ever growing understanding of data structures and algorithms. 
             </p>
           </div>
