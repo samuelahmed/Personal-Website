@@ -55,9 +55,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 pt-0'>
-            <h2 className='text-5xl py-2 text-sky-800 font-medium'>Samuel Duval</h2>
+            <h2 className='text-5xl py-2 text-sky-800 font-medium dark:text-sky-400'>Samuel Duval</h2>
             <h3 className='text-2xl py-2 dark:text-white'>Software Developer</h3>
-            <div className='relative mx-auto bg-gradient-to-b from-sky-800 rounded-full w-80 h-150 mt-20 mb-10'>
+            <div className='relative mx-auto bg-gradient-to-b from-sky-800 dark:from-sky-400 rounded-full w-80 h-150 mt-20 mb-10'>
               {/* <CustomImage /> */}
               <div className=''>
                   <CustomSlider />
@@ -66,9 +66,9 @@ export default function Home() {
 
             <p className ='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               My lifes passion is to seek a better understanding of nature, from physical phenomena to human societies.
-              Somewhere inbetween exists technology which fascinates me. I studied social sciences for a BA and MSc 
-              and helped tech startups succeed while sales engineer and other business roles. I discovered my passion for building software systems and have
-              experience with Javascript, Node, React, Vue, and a growing understanding of data structures and algorithms. 
+              Somewhere inbetween exists technology which fascinates me. I studied social sciences for a BA and MSc, helped
+               tech startups succeed as sales engineer, and advised businesses on operations. I discovered my passion for building software systems and have
+              experience with Javascript, Node, React, Vue, and an ever growing understanding of data structures and algorithms. 
             </p>
           </div>
             {/* <a href="https://www.linkedin.com/in/samuel-duval/">
