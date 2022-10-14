@@ -4,6 +4,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {useState} from 'react'
 import CustomSlider from '../components/CustomSlider'
 import { Tooltip } from 'flowbite-react'
+import PdfModal from '../components/PdfModal'
 
 export default function Home() {
 
@@ -36,7 +37,7 @@ export default function Home() {
                 </Tooltip>
               </a>
               <Tooltip content="Resume">
-                <BsPersonLinesFill />
+                <PdfModal />
               </Tooltip>
             </div>
           </nav>
