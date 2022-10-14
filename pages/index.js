@@ -54,9 +54,9 @@ export default function Home() {
           </div>
           <div className='mx-auto text-center'>
             <p className ='mx-auto w-5/6 text-md py-5 leading-8 text-gray-800 dark:text-white'>
-              I have always been passionate to seek a better understanding of nature, from physics to human societies, 
-              and somewhere in-between is technology which fascinates me. I studied social sciences for a BA and MSc, 
-              helped tech startups scale as a sales engineer, and advised businesses to improve their operations. 
+              I have always been passionate to seek a better understanding of nature, from physics to nation-states. 
+              Somewhere in-between is technology which fascinates me. I studied political science and anthropology for a BA and MSc, 
+              helped a tech startup scale as a sales engineer, and advised businesses to improve their operations. 
               Most recently I have been devoted to the craft of software engineering, having experience with Javascript, 
               Node, React, Vue, and an ever growing command of the fundamentals such as data structures and algorithms.
             </p>
