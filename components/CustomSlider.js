@@ -1,29 +1,18 @@
 import { useState } from "react";
 import ReactSlider from "react-slider";
-// import React, {createContext} from "react";
-import Image from "next/image";
-import Link from 'next/link'
-
-
-// const Year = createContext()
-
+import CustomImage from "./CustomImage"
 
 const CustomSlider = () => {
 
-
-
   let [currentValue, setCurrentValue] = useState();
-  
   if (currentValue === undefined) {
     currentValue = 30
   }
   let source = 1992 + currentValue
 
-
   return (
       <> 
-       <Image src={`/${source}.png`} alt='missing' width='400' height='400' />
-
+        <CustomImage source={source} />
         <ReactSlider
           renderThumb={(props, state) => <div {...props}>{state.valueNow + 1992}</div>}
           className="customSlider"
@@ -35,8 +24,7 @@ const CustomSlider = () => {
           max={80}
           defaultValue={30}
           value={currentValue}
-          onChange={(value) => setCurrentValue(value)}
-          
+          onChange={(value) => setCurrentValue(value)}          
         />
     </>
   );
