@@ -37,7 +37,7 @@ export default function Home() {
                 </Tooltip>
               </a>
               <Tooltip content="Resume">
-                <PdfModal />
+                <PdfModal	/>
               </Tooltip>
             </div>
           </nav>
