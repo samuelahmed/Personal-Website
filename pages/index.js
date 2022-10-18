@@ -5,8 +5,11 @@ import {useState} from 'react'
 import CustomSlider from '../components/CustomSlider'
 import { Tooltip } from 'flowbite-react'
 import PdfModal from '../components/PdfModal'
+import { useRouter } from 'next/router'
+
 
 export default function Home() {
+  const router = useRouter()
 
   const [darkMode, setDarkMode] = useState(false);
 
@@ -42,7 +45,10 @@ export default function Home() {
             </div>
           </nav>
           <div className='mx-auto text-center'>
-            <h2 className='text-5xl py-2 text-sky-800 font-medium dark:text-sky-400'>
+            <h2 
+              onClick={() => router.reload()}
+              className='text-5xl py-2 text-sky-800 font-medium dark:text-sky-400'
+            >
               Samuel Duval
             </h2>
             <h3 className='text-2xl py-2 dark:text-white'>
