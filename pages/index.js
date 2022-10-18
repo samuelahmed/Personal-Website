@@ -39,9 +39,15 @@ export default function Home() {
                   <AiFillGithub />
                 </Tooltip>
               </a>
-              <Tooltip content="Resume">
-                <PdfModal	/>
-              </Tooltip>
+                <Tooltip 
+                  trigger="hover"
+                  content="Resume"
+                  arrow={false}
+
+                  >
+                    
+                  <PdfModal	/>
+                </Tooltip>
             </div>
           </nav>
           <div className='mx-auto text-center'>
