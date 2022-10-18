@@ -19,7 +19,7 @@ export default function PdfModal() {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-5/6 h-5/6 bg-white outline-none focus:outline-none">
                 {/* <div className="relative p-6 flex-auto"> */}
 
-                    <iframe src='resume.pdf' className="w-full aspect-video" />
+                    <iframe src='resume.pdf' className="h-full aspect-video" />
                 {/* </div> */}
                 {/* <div className="flex items-center justify-end border-t border-solid rounded-b">
                   <button
