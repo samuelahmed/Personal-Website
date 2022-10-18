@@ -1,6 +1,5 @@
 import React from "react";
 import { BsPersonLinesFill } from 'react-icons/bs' 
-
 export default function PdfModal() {
 
   let [showModal, setShowModal] = React.useState(false);
