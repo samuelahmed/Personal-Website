@@ -56,7 +56,7 @@ export default function Home() {
             </h3>
           </div>
           <div className='mx-auto pb-10 -mt-10'>
-                <CustomSlider />
+            <CustomSlider />
           </div>
           <div className='mx-auto text-center'>
             <p className ='mx-auto w-5/6 text-md py-5 leading-8 text-gray-800 dark:text-white'>
@@ -64,7 +64,7 @@ export default function Home() {
               Somewhere in-between is technology which fascinates me. I studied political science and anthropology for a BA and MSc, 
               helped a tech startup scale as a sales engineer, and advised businesses to improve their operations. 
               Most recently I have been devoted to the craft of software engineering, having experience with Javascript, 
-              Node, React, Vue, and an ever growing command of the fundamentals such as data structures and algorithms.
+              Node, React, Vue, and an ever growing command of the fundamentals including data structures and algorithms.
             </p>
           </div>
         </section>
