@@ -6,20 +6,19 @@ import CustomSlider from '../components/CustomSlider'
 import { Tooltip } from 'flowbite-react'
 import PdfModal from '../components/PdfModal'
 
-
 export default function Home() {
 
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    if(window.matchMedia('(prefers-color-scheme:dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme:dark)').matches) {
       setDarkMode(true)
     }
     else {  
       setDarkMode(false)
     }
   }, []);
-  
+
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Head>
