@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import { BsPersonLinesFill } from 'react-icons/bs' 
 
 export default function PdfModal() {
