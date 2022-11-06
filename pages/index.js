@@ -26,7 +26,8 @@ export default function Home() {
         <title>Samuel Duval</title>
         <meta 
           name="Samuel Duval's personal website" 
-          content="My restless quest to achieve the impossible" />
+          content="My restless quest to achieve the impossible" 
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,7 +35,7 @@ export default function Home() {
         <section className="full-screen">
 
           <nav className='py-10 flex justify-between'>
-            <h1 className=''></h1>
+            <h1 className='emptyDiv'></h1>
             <div className='text-3xl flex justify-center gap-7 dark:text-white'>
               <Tooltip content="Lights">
                 <BsFillMoonStarsFill 
