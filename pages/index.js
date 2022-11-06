@@ -26,7 +26,7 @@ export default function Home() {
         <title>Samuel Duval</title>
         <meta 
           name="Samuel Duval's personal website" 
-          content="My restless quest to achieve the impossible" 
+          content="On the restless quest to achieve the impossible" 
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
