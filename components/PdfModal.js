@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { BsPersonLinesFill } from 'react-icons/bs' 
 
-export default function PdfModal() {
+const PdfModal = () => {
 
   const [showModal, setShowModal] = useState(false);
 
@@ -26,3 +26,5 @@ export default function PdfModal() {
     </>
   );
 }
+
+export default PdfModal;
