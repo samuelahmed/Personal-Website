@@ -53,9 +53,9 @@ export default function Home() {
                   <AiFillGithub />
                 </Tooltip>
               </a>
-                <Tooltip content="Resume">
-                  <PdfModal	/>
-                </Tooltip>
+              <Tooltip content="Resume">
+                <PdfModal />
+              </Tooltip>
             </div>
           </nav>
 
@@ -71,7 +71,7 @@ export default function Home() {
           <div className='mx-auto pb-10 -mt-10'>
             <CustomSlider />
           </div>
-          
+
           <div className='mx-auto text-center'>
             <p className ='mx-auto w-5/6 text-md py-5 leading-8 text-gray-800 dark:text-white'>
               I have always been passionate to seek a better understanding of nature, from physics to nation-states. 
