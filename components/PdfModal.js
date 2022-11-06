@@ -1,9 +1,9 @@
-import React from "react";
+import {useState} from 'react'
 import { BsPersonLinesFill } from 'react-icons/bs' 
 
 export default function PdfModal() {
 
-  let [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
